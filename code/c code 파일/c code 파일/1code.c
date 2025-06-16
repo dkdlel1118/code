@@ -128,63 +128,56 @@ int main() {
 	//}
 	//printf("%d\n", b);
 	//문제 3
-	int a;
-	printf("'더하기는 1번, 빼기는 2번,나누기는 3번,곱하기는 4번입니다.입력하실 곳은 여기 -->'");
-	scanf_s("%d", &a);
-	if (a == 1) {
-		int x;
-		printf("첫번쨰 수를 알려주세요:");
-		scanf_s("%d", &x);
-		int y;
-		printf("두번쨰 수를 알려주세요:");
-		scanf_s("%d", &y);
-		int k;
-		k = x + y;
-		printf("%d\n", k);
-	}
-	else if (a == 2) {
-
-
-		int x;
-		printf("첫번쨰 수를 알려주세요:");
-		scanf_s("%d", &x);
-		int y;
-		printf("두번쨰 수를 알려주세요:");
-		scanf_s("%d", &y);
-		int k;
-		k = x - y;
-		printf("%d\n", k);
-	}
-	else if (a == 3) {
-
-
-		int x;
-		printf("첫번쨰 수를 알려주세요:");
-		scanf_s("%d", &x);
-		int y;
-		printf("두번쨰 수를 알려주세요:");
-		scanf_s("%d", &y);
-		int k;
-		k = x * y;
-		printf("%d\n", k);
-	}
-
-	else if (a == 4) {
-
-
-		int x;
-		printf("첫번쨰 수를 알려주세요:");
-		scanf_s("%d", &x);
-		int y;
-		printf("두번쨰 수를 알려주세요:");
-		scanf_s("%d", &y);
-		int k;
-		k = x / y;
-		printf("%d\n", k);
-	}
-	else {
-		printf("다시 입력해주세요");
-	}
+	//int a;*/
+	//printf("'더하기는 1번, 빼기는 2번,나누기는 3번,곱하기는 4번입니다.입력하실 곳은 여기 -->'");
+	//scanf_s("%d", &a);
+	//if (a == 1) {
+	//	int x;
+	//	printf("첫번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &x);
+	//	int y;
+	//	printf("두번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &y);
+	//	int k;
+	//	k = x + y;
+	//	printf("%d\n", k);
+	//}
+	//else if (a == 2) {
+	//	int x;
+	//	printf("첫번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &x);
+	//	int y;
+	//	printf("두번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &y);
+	//	int k;
+	//	k = x - y;
+	//	printf("%d\n", k);
+	//}
+	//else if (a == 3) {
+	//	int x;
+	//	printf("첫번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &x);
+	//	int y;
+	//	printf("두번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &y);
+	//	int k;
+	//	k = x * y;
+	//	printf("%d\n", k);
+	//}
+	//else if (a == 4) {
+	//	int x;
+	//	printf("첫번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &x);
+	//	int y;
+	//	printf("두번쨰 수를 알려주세요:");
+	//	scanf_s("%d", &y);
+	//	int k;
+	//	k = x / y;
+	//	printf("%d\n", k);
+	//}
+	//else {
+	//	printf("다시 입력해주세요");
+	//}
 	
 	return 0;
 	}
